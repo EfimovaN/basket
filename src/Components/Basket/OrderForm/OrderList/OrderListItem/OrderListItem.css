@@ -1,0 +1,143 @@
+.list-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-grey2);
+  font-weight: 700;
+}
+
+.list-item__img {
+  margin-right: 12px;
+  width: 80px;
+  height: 80px;
+}
+
+.list-item__column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.list-item__description {
+  display: none;
+}
+
+.list-item__column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 12px;
+  min-width: 73px;
+}
+
+.list-item__column-right p {
+  margin: 0;
+  line-height: 20px;
+}
+
+.list-item__amount {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 81px;
+  height: 34px;
+  font-size: 20px;
+  border: 1px solid var(--color-black);
+  cursor: pointer;
+}
+
+.list-item__amount p {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.list-item__amount div:hover {
+  opacity: 0.4;
+}
+
+.list-item__name {
+  margin: 0 0 10px;
+  line-height: 20px;
+}
+
+.list-item__remove {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: var(--color-grey1);
+  cursor: pointer;
+}
+
+.list-item__remove:hover {
+  color: var(--color-black);
+  transition: 0.3s;
+}
+
+/*Desktop */
+
+@media (min-width: 1200px) {
+  .app-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 45px;
+  }
+
+  .list-item {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .list-item__img {
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .list-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .list-item__column-left {
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .list-item__description {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--color-grey1);
+  }
+  
+  .list-item__remove {
+    font-size: 14px;
+  }
+
+  .list-item__column-right {
+    margin-left: 20px;
+    min-width: 92px;
+  }
+
+  .list-item__amount {
+    width: 114px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    border: 1px solid var(--color-black);
+  }
+
+  .list-item__amount p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

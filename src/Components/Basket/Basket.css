@@ -1,0 +1,34 @@
+.basket__title {
+    margin: 20px 0 12px;
+  }
+  
+  .basket__login {
+    padding-right: 10px;
+    line-height: 19px;
+    
+  }
+  .basket__link {
+    color: var(--color-grey1);
+  }
+  
+  .basket__link:hover {
+    color: var(--color-black);
+    transition: 0.3s;
+  }
+
+  /*Desktop */
+
+  @media (min-width: 1200px) {
+    .basket {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      max-width: 505px;
+    }
+  
+    .basket__title {
+      margin-top: 50px;
+      font-size: 40px;
+    }
+  }

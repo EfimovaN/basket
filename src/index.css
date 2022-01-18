@@ -1,0 +1,39 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey1: #9f9f9f;
+  --color-grey2: #dedede;
+  --color-error: #d80909;
+}
+
+@font-face { 
+  font-family: "Helvetica";
+  src: url("fonts/Helvetica-Regular.woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-black);
+  font-size: 16px;
+}
+
+::placeholder {
+  color: var(--color-grey1)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+

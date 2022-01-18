@@ -1,0 +1,40 @@
+.app-wrapper {
+  margin: 0 auto;
+  min-height: 100vh; 
+  min-width: 320px;
+  padding: 0 5%;
+}
+
+/*Mobile */
+
+@media (min-width: 576px) {
+  .app-wrapper {
+    padding: 0 15%;
+  }
+}
+
+/* Tablet
+
+@media (min-width: 768px) {
+  .app-wrapper {
+    padding: 0 20%;
+  }
+} */
+
+/*Desktop */
+
+@media (min-width: 1200px) {
+  .app-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 45px;
+  }
+}
+
+/*Desktop large*/
+
+@media (min-width: 1920px) {
+  .app-wrapper {
+    max-width: 1920px;
+  }
+}
