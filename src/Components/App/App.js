@@ -1,8 +1,8 @@
 import {Redirect, Route, Switch} from 'react-router-dom';
 import './App.css';
-import { BasketContextProvider } from './BasketContext';
-import Basket from './Components/Basket/Basket';
-import Login from './Components/Login/Login';
+import { BasketContextProvider } from '../../BasketContext';
+import Basket from '../Basket/Basket';
+import Login from '../Login/Login';
 
 function App() {
   return (

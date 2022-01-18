@@ -13,14 +13,6 @@
   }
 }
 
-/* Tablet
-
-@media (min-width: 768px) {
-  .app-wrapper {
-    padding: 0 20%;
-  }
-} */
-
 /*Desktop */
 
 @media (min-width: 1200px) {
